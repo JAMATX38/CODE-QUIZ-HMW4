@@ -1,0 +1,64 @@
+/* .card_question{
+    display:none
+};*/
+
+* {
+    
+    font-family:fantasy;
+    font-size: xx-large;
+}
+body {
+    padding: 0;
+    margin: 0;
+    
+    height: 100vw;
+    height: 100vh;
+    justify-content:space-around;
+    align-items: center;
+    background-color: plum;
+    
+}
+
+ol {
+    display:flex;
+    
+}
+
+li {
+    width:500px;
+    height: 80px;
+    background-color: powderblue;
+    margin: 8px;
+}
+
+.card {
+    flex-direction: column-reverse;
+width: 800px;
+max-width: 80%; 
+background-color: darkorchid;
+border-radius: 5px;
+padding: 10px;
+box-shadow: 0 0 12px 2px;
+};
+
+.count {
+    
+    background-color: cornflowerblue;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+.card-question { 
+    display: none;
+
+}
+
+#countdown {
+font-size: xx-large;
+color: crimson;
+
+};
+
+#hidden {
+    display:none;
+}
